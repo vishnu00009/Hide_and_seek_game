@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+#start{
+    width:100%;
+    
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.7)) ,url(rubik.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+position: fixed;
+}
+#a{
+    color: rgb(233, 229, 229);
+    font-size: 6ch;
+    text-align: left;
+    margin-left: 5%;
+    margin-top:10%;
+
+}
+h1:hover{
+    text-shadow: 4px 4px 30px blue;
+}
+#m{
+    width:200px;
+    height: 100px;
+    margin-left:250px;
+    font-size: 3ch;
+   margin-top: 40px;
+    border-color: rgb(114, 114, 228);
+    background-color: rgb(85, 85, 226);
+    border-radius: 80%;
+    box-shadow: 4px 4px 30px rgb(255, 255, 255);
+    display: inline-block;
+
+}
+#m:hover{
+    box-shadow: 5px 5px 30px blue;
+
+}
+
+.rule{
+    width:300px;
+    height:300px;
+    background-color: rgb(77, 77, 188);
+    display: inline-block;
+    border-radius: 10%;
+    margin-left:280px;
+    margin-top: 10px;
+    /* margin-top:-10%; */
+    box-shadow: 4px 4px 40px rgb(255, 255, 255);
+    
+}
+.rule1{
+    width:300px;
+    height:300px;
+    background-color: rgb(78, 78, 185);
+    display: inline-block;
+    border-radius: 10%;
+    margin-left:280px;
+    margin-top:20px;
+    box-shadow: 4px 4px 40px rgb(255, 255, 255);
+    
+}
+.rule:hover{
+    box-shadow: 4px 4px 40px blue;
+    padding-top: 2px;
+
+}
+.rule1:hover{
+    box-shadow: 4px 4px 40px blue;
+    padding-top:2px;
+}
+#a{
+    display: inline-block;
+}
+#j{
+position: absolute;
+    margin-left:85px;
+    margin-top: 10px;
+}
+#j1{
+    position: relative;
+}
+.ru{
+   text-align: center;
+   color: aliceblue;
+   margin-top:20px;
+   
+}
+#n{
+    margin-top:25px;
+    margin-left:20px;
+}
